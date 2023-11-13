@@ -18,7 +18,7 @@ Dokumentasi ini menjelaskan penggunaan dan endpoint-endpoint yang tersedia pada 
 ## Pendahuluan
 
 Untuk memulai menggunakan Todo App API, ikuti langkah-langkah berikut:
-#ad
+#
     1. Klon repository: 
         git clone https://github.com/adepertiwi/Express-API-Todolist.git 
         cd Express-API-Todolist
