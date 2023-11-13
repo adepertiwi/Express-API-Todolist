@@ -1,6 +1,6 @@
 # Dokumentasi Web Service & RESTful API for ToDoList Application
 
-Dokumentasi ini menjelaskan penggunaan dan endpoint-endpoint yang tersedia pada T Web Service & RESTful API for ToDoList Application. API ini menyediakan fungsi untuk mengelola daftar todo bagi pengguna yang terdaftar.
+Dokumentasi ini menjelaskan penggunaan dan endpoint-endpoint yang tersedia pada Web Service & RESTful API for ToDoList Application. API ini menyediakan fungsi untuk mengelola daftar todo bagi pengguna yang terdaftar.
 
 ## Daftar Isi
 
@@ -18,14 +18,14 @@ Dokumentasi ini menjelaskan penggunaan dan endpoint-endpoint yang tersedia pada 
 ## Pendahuluan
 
 Untuk memulai menggunakan Todo App API, ikuti langkah-langkah berikut:
-    1. Klon repository:
-        git clone https://github.com/adepertiwi/Express-API-Todolist.git
+1. Klon repository:
+    git clone https://github.com/adepertiwi/Express-API-Todolist.git
         cd Express-API-Todolist
 
-    2. Install dependensi:
-        npm install
+2. Install dependensi:
+    npm install
 
-    3. Jalankan server:
-        npm start 
-        <!-- API akan berjalan di http://localhost:3000 secara default. -->
+3. Jalankan server:
+    npm start 
+    <!-- API akan berjalan di http://localhost:3000 secara default. -->
 
