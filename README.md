@@ -22,10 +22,10 @@ Untuk memulai menggunakan Todo App API, ikuti langkah-langkah berikut:
     git clone https://github.com/adepertiwi/Express-API-Todolist.git 
     cd Express-API-Todolist
 
-2. Install dependensi: 
-    npm install
+        2. Install dependensi: 
+             npm install
 
-3. Jalankan server: 
-    npm start 
-    API akan berjalan di http://localhost:3000 secara default.
+        3. Jalankan server: 
+             npm start 
+            <!-- API akan berjalan di http://localhost:3000 secara default. -->
 
