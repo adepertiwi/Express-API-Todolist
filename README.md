@@ -5,7 +5,7 @@ Dokumentasi ini menjelaskan penggunaan dan endpoint-endpoint yang tersedia pada 
 ## Daftar Isi
 
 - [Pendahuluan](#pendahuluan)
-- [Autentikasi](#autentikasi)
+- [Authentication](#authentication)
 - [Endpoint Todo](#endpoint-todo)
   - [1. Mendapatkan Semua Todo](#1-mendapatkan-semua-todo)
   - [2. Mendapatkan Todo berdasarkan ID](#2-mendapatkan-todo-berdasarkan-id)
@@ -18,8 +18,9 @@ Dokumentasi ini menjelaskan penggunaan dan endpoint-endpoint yang tersedia pada 
 ## Pendahuluan
 
 Untuk memulai menggunakan Todo App API, ikuti langkah-langkah berikut:
+
 #
-    1. Klon repository: 
+    1. Clone repository: 
         git clone https://github.com/adepertiwi/Express-API-Todolist.git 
         cd Express-API-Todolist
 
@@ -29,4 +30,24 @@ Untuk memulai menggunakan Todo App API, ikuti langkah-langkah berikut:
     3. Jalankan server: 
          npm start 
         <!-- API akan berjalan di http://localhost:3000 secara default. -->
+
+## Authentication
+Untuk mengakses endpoint Todo, Anda perlu menyertakan JWT (JSON Web Token) yang valid pada header permintaan. Dapatkan JWT dengan melakukan login melalui endpoint /auth/login.
+
+    1. Buka aplikasi Postman atau bisa menggunakan extension Thunder Client
+    2. Gunakan Metode POST untuk endpoint registrasi akun 
+    3. Sertakan informasi pengguna (seperti username, name dan password) dalam body permintaan.
+        contoh: 
+        {
+            "username": "Ade Pertiwi",
+            "name": "tiwi",
+            "password": "123"
+        }
+
+    4. klik button "Send"
+    5. Lalu akan muncul hasil seperti ini
+        {
+            "message": "berhasil membuat data user"
+        }
+
 
