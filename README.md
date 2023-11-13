@@ -6,14 +6,11 @@ Dokumentasi ini menjelaskan penggunaan dan endpoint-endpoint yang tersedia pada 
 - [Pendahuluan](#pendahuluan)
 - [Registrasi](#registrasi)
 - [Login](#login)
-- [Endpoint Todo](#endpoint-todo)
-  - [1. Mendapatkan Semua Todo](#1-mendapatkan-semua-todo)
-  - [2. Mendapatkan Todo berdasarkan ID](#2-mendapatkan-todo-berdasarkan-id)
-  - [3. Membuat Todo Baru](#3-membuat-todo-baru)
-  - [4. Mengubah Todo](#4-mengubah-todo)
-  - [5. Menghapus Todo](#5-menghapus-todo)
-  - [6. Menghapus Semua Todo](#6-menghapus-semua-todo)
-- [Endpoint User](#endpoint-user)
+- [Membuat Todo Baru](#membuat-todo-baru)
+- [Melihat Detail Todo](melihat-semua-todo)
+- [Mengubah Todo](#mengubah-todo)
+- [Menghapus Todo](menghapus-todo)
+- [Menghapus Semua Todo](menghapus-semua-todo)
 
 ## Pendahuluan
 Untuk memulai menggunakan Todo App API, ikuti langkah-langkah berikut:
@@ -75,9 +72,8 @@ Berikut langkah langkah untuk melakukan login melalui endpoint /auth/login.
 
 Dengan mengikuti langkah-langkah di atas, Anda dapat berhasil melakukan login pengguna melalui API.
 
-## Endpoint Todo
 
-##  1. Membuat todo baru
+##  Membuat Todo Baru
 Berikut langkah langkah untuk membuat todo baru untuk pengguna yang terotentikasi.
 
     1. Buka aplikasi Postman atau gunakan extension Thunder Client
@@ -98,7 +94,7 @@ Berikut langkah langkah untuk membuat todo baru untuk pengguna yang terotentikas
 
 Dengan mengikuti langkah-langkah di atas, Anda dapat berhasil membuat todo baru melalui API.
 
-##  1. Membuat todo baru
+##  Membuat todo baru
 Berikut langkah langkah untuk membuat todo baru untuk pengguna yang terotentikasi.
 
     1. Buka aplikasi Postman atau gunakan extension Thunder Client
